@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #3498db, #ffffff);
+    color: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+#skills {
+    background: linear-gradient(to right, #ecf0f1, #f5f5f5);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.skills-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(to right, #000000, #afadad);
+    color: #fff;
+    padding: 5px; /* Adjusted padding for smaller size */
+    margin: 3px; /* Adjusted margin for smaller size */
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+li:hover {
+    background: linear-gradient(to right, #2980b9, #55a1cf);
+    transform: scale(1.05);
+}
+
+.skills-container,
+.projects-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(to right, #15252f, #343232);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+#resume{
+
+text-align: center;
+}
+#resume-text {
+    background: linear-gradient(to right, #ecf0f1, #f5f5f5);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.resume-text-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 12px 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #3498db, #6ab0de);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.2s;
+    display: block;
+    margin: 0 auto; 
+}
+
+button:hover {
+    background: linear-gradient(to right, #2980b9, #55a1cf);
+    transform: scale(1.05);
+}
